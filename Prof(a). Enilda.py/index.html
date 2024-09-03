@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        /* Estilo do menu superior */
+        .menu-superior {
+            background-color: #007BFF;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+
+        .menu-superior .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .menu-superior nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .menu-superior nav ul li {
+            position: relative;
+            margin-left: 20px;
+        }
+
+        .menu-superior nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+        }
+
+        .menu-superior nav ul li ul {
+            display: none;
+            position: absolute;
+            top: 40px;
+            left: 0;
+            background-color: #0056b3;
+            padding: 10px 0;
+            list-style: none;
+        }
+
+        .menu-superior nav ul li:hover ul {
+            display: block;
+        }
+
+        .menu-superior nav ul li ul li {
+            margin-left: 0;
+        }
+
+        .menu-superior nav ul li ul li a {
+            padding: 10px 20px;
+        }
+
+        /* Estilo da seção principal */
+        .secao-principal {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .secao-principal h1 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        .secao-principal img {
+            width: 300px;
+            float: left;
+            margin-right: 20px;
+        }
+
+        /* Estilo das bolas com imagens */
+        .bolas-imagens {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .bolas-imagens .bola {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 10px;
+            border: 5px solid #007BFF;
+        }
+
+        .bolas-imagens .bola img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Estilo do rodapé */
+        footer {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menu superior -->
+    <div class="menu-superior">
+        <div class="logo">Minha Logo</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="#">Serviços</a>
+                    <ul>
+                        <li><a href="#">Serviço 1</a></li>
+                        <li><a href="#">Serviço 2</a></li>
+                        <li><a href="#">Serviço 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Seção principal -->
+    <div class="secao-principal">
+        <h1>Título da Seção</h1>
+        <img src="https://via.placeholder.com/300" alt="Imagem da Seção">
+        <p>Esta é uma descrição da seção principal. Aqui você pode colocar algum texto informativo sobre o conteúdo que está sendo exibido nesta página.</p>
+    </div>
+
+    <!-- Seção com bolas de imagens -->
+    <div class="bolas-imagens">
+        <div class="bola">
+            <img src="https://via.placeholder.com/150" alt="Imagem 1">
+        </div>
+        <div class="bola">
+            <img src="https://via.placeholder.com/150" alt="Imagem 2">
+        </div>
+        <div class="bola">
+            <img src="https://via.placeholder.com/150" alt="Imagem 3">
+        </div>
+        <div class="bola">
+            <img src="https://via.placeholder.com/150" alt="Imagem 4">
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        &copy; 2024 Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>
