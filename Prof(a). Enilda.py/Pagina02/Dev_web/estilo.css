@@ -1,0 +1,23 @@
+p{
+    color: red;
+    font-size: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    color: blue;
+    font-size: 36px;
+}
+ol{
+    width: 100%;
+    height: 250px;
+    background-color: chartreuse;
+    color: brown;
+}
+li{
+    background-color: aliceblue;
+    width: 20%;
+}
+ul{
+    width: 80%;
+    background-color: blueviolet;
+    color: aliceblue;
+}
