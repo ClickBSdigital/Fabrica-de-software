@@ -13,6 +13,8 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
+    /* backdrop-filter: blur(20px);
+    opacity: 0.9; */
 }
 .box{
     width: 1400px;
@@ -84,6 +86,9 @@
     font-size: 15px;
     color: #616161;
     transition: all 0.4s ease;    
+}
+.form-box .input-group input::placeholder{
+    color: magenta;
 }
 .form-box .input-group input:focus{
     border-color: #ff008869;
