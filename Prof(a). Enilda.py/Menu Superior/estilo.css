@@ -1,0 +1,30 @@
+body {
+    margin: 0
+  }
+  
+  #navigation {
+      font-size: 16px;
+      position: fixed;
+      width: 100%;
+      z-index: 10;
+      top: 0;
+      background-color: white;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23);
+  }
+  #navigation .nav ul li a {
+      font-weight: 500;
+      text-decoration: none;
+      color: #45474f;
+      width: 100%;
+      display: block;
+      padding: 16px;
+      -webkit-transition: all 150ms ease;
+      transition: all 150ms ease;
+  }
+  
+  #navigation .nav ul li {
+      list-style: none;
+      border-right: 1px solid #e0e5f0;
+      box-sizing: border-box;
+      display: table-cell;
+  }
