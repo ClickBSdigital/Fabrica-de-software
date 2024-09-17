@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.login{
+    background-image: url(../imagens/Computer-Technology-PNG-High-Quality-Image.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    margin-bottom: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 10%;
+    
+}
+.area-login{
+    width: 90%;
+    height: 75%;
+    background-color: rgba(93, 89, 89, 0.5);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    animation: animeBox 3s infinite;
+    margin-top: 2%;
+}
+.card{
+    width: 400px;
+    height: 500px;
+    background-color: rgba(245, 245, 246, 0.681);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600px;
+    color: magenta;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 30px;
+}
+.form-login{
+    width: 90%;
+    height: 70%;
+    /* background-color: aqua;  */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.group{
+    position: relative;
+}
+.form-login .group label{
+    font-size: 16px;
+    color: rgb(26, 27, 27);
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: #fff;
+    transition: all 0.3 ease;
+}
+.form-login .group input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    outline: 0;
+    width: 100%;
+    background-color: transparent;
+}
+.form-login .group input:placeholder-shown+label{
+    top: 10px;
+    background-color: transparent;
+}
+.form-login .group input:focus{
+    border-color: magenta;
+}
+.form-login .group input:focus+label{
+    top: -10px;
+    left: 10px;
+    background-color: rgb(237, 218, 242);
+    color: magenta;
+    font-weight: 600px;
+    font-size: 16px;
+    padding: 2px;
+}
+.form-login button{
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: magenta;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+.img-form-login{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.img-form-login img{
+    height: 100%;
+}
+@keyframes animeBox{
+    0%{
+        box-shadow: none;
+    }
+    50%{
+        box-shadow: 5px 5px 20px 5px magenta;
+    }
+    100%{
+        box-shadow: none;
+    }
+}
+.img-login{
+    width: 450px;
+    height: 500px;
+    display: flex;
+    border-radius: 10px;
+    filter: drop-shadow(10px 10px 4px magenta);
+    /* animation: animeBox 3s infinite; */
+}
+/* .img-login img{
+    height: 100%;
+}
+@keyframes animeBox{
+    0%{
+        box-shadow: none;
+    }
+    50%{
+        box-shadow: 5px 5px 20px 5px magenta;
+    }
+    100%{
+        box-shadow: none;
+    }
+} */
+.img-login img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.area-linhas{
+    height: 100%;
+    width: 20px;
+    /* border:  2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.linha1{
+    height: 40%;
+    width: 5px;
+    background-color: magenta;
+    border-radius: 0px 0px 5px 5px;
+}
+.linha2{
+    height: 40%;
+    width: 5px;
+    background-color: magenta;
+    border-radius: 5px 5px 0px 0px;
+}
+.setinhas{
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    justify-content: space-evenly;
+}
+.seta{
+    color: magenta;
+    font-size: 20px;
+    font-weight: 800;
+    transform: rotate(90deg);
+}
+

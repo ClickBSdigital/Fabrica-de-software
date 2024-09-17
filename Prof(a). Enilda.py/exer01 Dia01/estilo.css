@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilo do menu superior */
+.menu-superior {
+    background-color: #007BFF;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.menu-superior .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu-superior nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu-superior nav ul li {
+    position: relative;
+    margin-left: 20px;
+}
+
+.menu-superior nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.menu-superior nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #0056b3;
+    padding: 10px 0;
+    list-style: none;
+}
+
+.menu-superior nav ul li:hover ul {
+    display: block;
+}
+
+.menu-superior nav ul li ul li {
+    margin-left: 0;
+}
+
+.menu-superior nav ul li ul li a {
+    padding: 10px 20px;
+}
+
+/* Estilo da seção principal */
+.secao-principal {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.secao-principal h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.secao-principal img {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+/* Estilo das bolas com imagens */
+.bolas-imagens {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.bolas-imagens .bola {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 10px;
+    border: 5px solid #007BFF;
+}
+
+.bolas-imagens .bola img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 0;
+  width: 100%;
+}
