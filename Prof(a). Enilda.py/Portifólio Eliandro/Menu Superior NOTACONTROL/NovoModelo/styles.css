@@ -36,20 +36,7 @@ header {
 }
 
 #conteudo {
-    /* padding: 50px; */
-    width: 95%;
-    height: 75%;
-    background-color: rgba(39, 4, 72, 0.369);
-    margin: 10%;
-    backdrop-filter: blur(16px) saturate(180%);
-    -webkit-backdrop-filter: blur(16%) saturate(180%);
-    border-radius: 12px;
-    padding: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 28px;
+    padding: 50px;
 }
 
 .pagina {
@@ -58,28 +45,51 @@ header {
     padding: 100px 0;
 }
 
-.pagina img {
-    width: 200px;
-    height: 150px;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-}
-
-.pagina img:hover {
-    transform: scale(1.05);
-}
-
 .pagina h2 {
     margin-bottom: 20px;
     font-size: 28px;
     color: #333;
 }
 
+.imagem-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem-container img {
+    width: 400px;
+    height: 300px;
+    border: 5px solid #333;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.imagem-container img:hover {
+    transform: scale(1.05);
+}
+
+.imagem-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f39c12;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.imagem-container button:hover {
+    background-color: #e67e22;
+}
+
 /* Exibe a página ativa */
-#usuario:target, #servicos:target, #autoatendimento:target {
+#imagem1:target, #imagem2:target, #imagem3:target {
     display: block;
 }
 
-#usuario:target h2, #servicos:target h2, #autoatendimento:target h2 {
+#imagem1:target h2, #imagem2:target h2, #imagem3:target h2 {
     color: #f39c12;
 }
