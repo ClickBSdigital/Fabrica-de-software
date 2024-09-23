@@ -3,6 +3,7 @@
 @import url('header.css');
 @import url('home.css');
 @import url('menu.css');
+@import url('feedback.css');
 
 :root{
     --color-font-branca:#fff9ea;
@@ -10,7 +11,7 @@
     --color-primary-3:#f8d477;
     --color-primary-4:#ffe100;
     --color-primary-5:#ffcb45;
-    --color-primary-6:#e9a209;
+    --color-primary-6:#ef7c1d;
 
     --color-neutra-1:#fff;
     --color-neutra-2:#1d1d1d;
