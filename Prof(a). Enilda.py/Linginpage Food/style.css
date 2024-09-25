@@ -3,6 +3,7 @@
 @import url('header.css');
 @import url('home.css');
 @import url('menu.css');
+@import url('feedback.css');
 
 :root{
     --color-font-branca:#fff9ea;
@@ -10,7 +11,7 @@
     --color-primary-3:#f8d477;
     --color-primary-4:#ffe100;
     --color-primary-5:#ffcb45;
-    --color-primary-6:#e9a209;
+    --color-primary-6:#ef7c1d;
 
     --color-neutra-1:#fff;
     --color-neutra-2:#1d1d1d;
@@ -39,4 +40,23 @@ html{
 }
 .btn-default:hover{
     background-color: var(--color-primary-3);
+}
+.social-media-buttons{
+    display: flex;
+    gap: 18px;
+}
+.social-media-buttons a{
+    width: 45px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-neutra-1);
+    font-size: 1.25rem;
+    color: var(--color-primary-6);
+    box-shadow: 0px 0px 12px 4px rgba(184, 20, 20, 0.1);
+    transition: box-shadow .3s ease;
+}
+.social-media-buttons a:hover{
+    box-shadow: 0px 0px 12px 8px rgba(185, 180, 19, 0.363);
 }

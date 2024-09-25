@@ -1,0 +1,15 @@
+footer{
+    background-color: var(--color-primary-2);
+}
+.footer-itens{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 8% 24px 8%;
+    gap: 18px;
+    align-items: center;
+}
+.copyrigth{
+    color: var(--color-neutra-1);
+    font-size: 500;
+}
