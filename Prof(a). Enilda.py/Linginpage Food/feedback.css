@@ -3,8 +3,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
-    top: 5%;
+    gap: 48px;
+    margin-top: 10%;
 }
 .depoimentos-chef{
     width: 500px;
@@ -44,4 +44,33 @@
 }
 .feedback-content p span{
     color: var(--color-primary-6);
+}
+
+.ver-mais{
+    width: 200px;
+    display: flex;
+}
+
+@media screen and (max-width: 720px) {
+    .depoimentos{
+    flex-direction: column;
+    }
+    .depoimentos-chef{
+        width: 80%;
+    }
+    .feedback{
+        flex-direction: column;
+    }
+    .area-feedbacks{
+        width: 90%;
+    }
+    .section-title{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .area-feedbacks .section-subtitle{
+        font-size: 2rem;
+        text-align: center;
+        width: 90%;
+    }
 }

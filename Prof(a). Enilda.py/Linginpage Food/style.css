@@ -25,6 +25,15 @@
 html{
     scroll-behavior: smooth;
 }
+
+a{
+    text-decoration: none;
+}
+
+section{
+    padding: 28px 8px;
+}
+
 .btn-default{
     border: none;
     display: flex;
