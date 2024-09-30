@@ -1,0 +1,41 @@
+/* Botão suspenso */
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* O contêiner <div> - necessário para posicionar o conteúdo suspenso */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Conteúdo suspenso (oculto por padrão) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links dentro do menu suspenso */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Alterar a cor dos links suspensos ao passar o mouse */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Mostrar o menu suspenso ao passar o mouse */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Altere a cor de fundo do botão suspenso quando o conteúdo do menu suspenso for mostrado */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}

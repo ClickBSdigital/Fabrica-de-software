@@ -1,0 +1,74 @@
+.cardapio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.area-cards{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 32px;
+    gap: 24px;
+    background-color: var(--color-neutra-1);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-between;
+    gap: 18px;
+    width: 350px;
+    padding: 20px;
+    background-color: var(--color-neutra-1);
+    box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.2);
+    position: relative;
+
+}
+.card-image{
+    width: 200px;
+}
+.card-heart{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.563rem;
+    background-color: var(--color-primary-6);
+    color: var(--color-neutra-1);
+    border-radius: 0px 18px 0px 42.5px;
+}
+.card-descricao{
+    color: rgb(46, 43, 43);
+    text-align: center;
+}
+.card-rate i{
+    color: var(--color-primary-6);
+}
+.card-price{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.section-title{
+    font-size: 50px;
+    padding: 20px;
+    color: var(--color-primary-6);
+    text-align: center;
+
+}
+.section-subtitle{
+    font-size: 36px;
+    text-align: center;
+}
+#nome-client{
+    font-weight: bold;
+    font-size: 18px;
+}

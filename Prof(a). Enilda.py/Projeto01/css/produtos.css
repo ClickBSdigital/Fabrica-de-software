@@ -1,4 +1,5 @@
 *{
+<<<<<<< HEAD
   padding: 0;
   margin: 0;
 }
@@ -110,3 +111,113 @@
   color: rgb(7, 34, 156);
 }
 
+=======
+    padding: 0;
+    margin: 0;
+}
+.lista-produtos{
+    background-color: var(--cor-fundo-page);
+    /* background: linear-gradient(45deg, var(--cor-fundo-claro)0%, var(--cor-fundo-claro)100%); */
+    background-image: url(../imagens/Computer-Technology-PNG-Download-Image.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.area-cards{
+    width: 95%;
+    height: 75%;
+    background-color: rgba(39, 4, 72, 0.369);
+    margin: 10%;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16%) saturate(180%);
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+.container{
+    width: 250px;
+    height: 350px;
+    border: 1px solid rgba(250, 255, 255, 0.125);
+    background-color: rgba(17, 15, 15, 0.513);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16%) saturate(180%);
+    border-radius: 12px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    filter: drop-shadow(10px 20px 10px rgb(180, 37, 180));
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper .banner-img{
+    width: 150px;
+    height: 170px;
+    border: 1px solid rgba(250, 255, 255, 0.125);
+    border-radius: 12px;
+    background-image: url(../imagens/pexels-photo-17167905.webp);
+    background-position: center;
+    background-size: cover;
+}
+.wrapper .titulo-produto{
+    color: greenyellow;
+    font-size: 20px;
+    font-family: poppins, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.wrapper p{
+    color: aliceblue;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+}
+.button-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    border: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.fill{
+    background-color: greenyellow;
+    color: rgb(131, 9, 131);
+    transition: all 0.3s ease;
+    border: 1px solid magenta;
+}
+.fill:hover{
+    background-color: transparent;
+    color: greenyellow;
+}
+.outline{
+    background-color: rgb(85, 36, 36);
+    color: greenyellow;
+    transition: all 0.3s ease;
+    border: 1px solid magenta;
+}
+.outline:hover{
+    background-color: transparent;
+    color: rgb(104, 172, 3);
+}
+>>>>>>> 0a5a1f360302892c4800daa9f5049901dc2eada0

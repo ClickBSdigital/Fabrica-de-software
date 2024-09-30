@@ -3,7 +3,11 @@
 :root{
     --cor-menu: black;
     --cor-letra-menu: rgb(4, 246, 214);
+<<<<<<< HEAD
     --cor-fundo-page: rgb(152, 144, 152);
+=======
+    --cor-fundo-page: rgb(16, 0, 17);
+>>>>>>> 0a5a1f360302892c4800daa9f5049901dc2eada0
     --cor-fundo-claro: rgb(110, 60, 110);
 }
 
@@ -11,7 +15,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
     
+=======
+>>>>>>> 0a5a1f360302892c4800daa9f5049901dc2eada0
 }
 .menu{
     width: 100%;
@@ -22,7 +29,10 @@
     top: 0;
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     z-index: 3;
+=======
+>>>>>>> 0a5a1f360302892c4800daa9f5049901dc2eada0
 }
 .nav-menu{
     width: 100%;
@@ -71,4 +81,8 @@
     /* width: 200%; */
     padding: 0 15px;
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 0a5a1f360302892c4800daa9f5049901dc2eada0

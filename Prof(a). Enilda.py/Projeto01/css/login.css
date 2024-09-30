@@ -11,12 +11,15 @@
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    /* justify-content: center; */
     align-items: center;
+    margin-top: 10%;
+    
 }
 .area-login{
     width: 90%;
-    height: 80%;
+    height: 75%;
     background-color: rgba(93, 89, 89, 0.5);
     backdrop-filter: blur(10px);
     display: flex;
@@ -24,11 +27,12 @@
     justify-content: space-evenly;
     border-radius: 15px;
     animation: animeBox 3s infinite;
+    margin-top: 2%;
 }
 .card{
     width: 400px;
     height: 500px;
-    background-color: rgb(237, 218, 242);
+    background-color: rgba(245, 245, 246, 0.681);
     border-radius: 10px;
     display: flex;
     flex-direction: column;

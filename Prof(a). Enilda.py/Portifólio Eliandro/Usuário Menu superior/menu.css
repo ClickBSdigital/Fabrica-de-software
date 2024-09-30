@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 15px 0;
+}
+
+.menu-superior ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-superior ul li {
+    margin: 0 20px;
+}
+
+.menu-superior ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu-superior ul li a:hover {
+    color: #f39c12;
+}
+
+#conteudo {
+    /* padding: 50px; */
+    width: 95%;
+    height: 75%;
+    background-color: rgba(39, 4, 72, 0.369);
+    margin: 10%;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16%) saturate(180%);
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+
+.pagina {
+    display: none;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.pagina img {
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.pagina img:hover {
+    transform: scale(1.05);
+}
+
+.pagina h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+/* Exibe a página ativa */
+#usuario:target, #servicos:target, #autoatendimento:target {
+    display: block;
+}
+
+#usuario:target h2, #servicos:target h2, #autoatendimento:target h2 {
+    color: #f39c12;
+}

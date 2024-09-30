@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: white;
+            font-size: 17px;
+}
+
+/* Creando barra de menu superior fijado*/
+
+header{
+            width: 100%;
+            height: 85px;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            position: fixed;
+            top:auto;
+            background-color: white;
+}
+
+#title-box{
+            display: flex;
+            max-width: 220px;
+            width: 100%;
+            align-items: center;
+            justify-content: flex-end;
+}
+
+#my-title{
+            font-size: 35px;
+            font-family: 'Bebas Neue', cursive;
+            display: block;
+            letter-spacing: 2px;
+}
+
+#img-title{
+            width: 60px;
+            height: 60px;
+            display: block;
+            margin: 0;
+            margin-bottom: 10px;
+            margin-left: 10px;
+}
+
+#nav-bar{
+            display:block;
+            max-width: 500px;
+            width: 100%;
+
+}
+
+#bar-side {
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+}
+
+.bar-point{
+            display: block;
+            margin: auto;
+}
+
+.bar-link{
+            text-decoration: none;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 20px;
+            color: black;
+            letter-spacing: 2px;
+}
+
+.bar-link:hover{
+            transition: .1s;
+            font-size: 25px;
+            color:brown;
+            border-bottom: 2px solid brown;
+}
+
+/* Bloque de imagen captadora*/
+
+#image-block{
+            display: block;
+            width: 98%;
+            height: 300px;
+            background: url(https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1631&q=80);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            margin: auto;
+            padding-top: 80px;
+}
+
+#icon{
+            display: block;
+            width: 40px;
+            height: 40px;
+            margin: 0 50%;
+            margin-top: 220px;
+}
+
+/* Descripcion de mi persona*/
+
+#welcome-section{
+            display: inline-block;
+            width: 100%;
+            height: 600px;
+}
+
+#my-pharse{
+            font-family: 'Pacifico', cursive;
+            font-size: 70px;
+            font-weight: 400;
+            display: block;
+            margin: auto;
+            text-align: center;  
+            max-width: 600px;  
+            width: 90%;
+            margin-top: 150px;               
+}
+
+#my-image{
+            display: block;
+            width: 250px;
+            height: 250px;
+            border: 4px solid black;
+            border-radius: 100%;
+            float: right;
+            margin:0;
+            margin-right: 250px;
+            margin-top: -350px;
+}
+
+#my-description{
+            display: block;
+            max-width: 750px;
+            width: 90%;
+            margin:auto;
+            margin-top: 20px;
+            font-size: 22px;
+            text-align: center;
+            font-family: 'Roboto Mono', monospace;
+
+}
+
+/* Mis proyectos*/
+
+#projects{
+            display: block;
+            width: 100%;
+            height: 950px;
+            background-color: limegreen;
+}
+
+#project-box{
+            margin-top: 100px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+}
+
+#project-tittle{
+            font-family: 'Pacifico', cursive;
+            font-size: 70px;
+            margin: 0;
+            padding-top: 60px;
+            font-weight: 400;
+            text-align: center;
+            color: black;
+}
+
+.project-tile{
+            width: 250px;
+            height: 270px;
+            border: 2px solid green;
+            border-radius: 5px;
+            margin: 10px 0px;
+            text-align: center;
+}
+.project-tile:hover{
+            transition: .3s;
+            width: 250px;
+            height: 270px;
+            margin: 0px 0px;
+            background-color: tomato;
+            border: 2px solid red;
+            color: white;
+}
+
+.project-tile h3{
+            font-family: 'Bebas Neue', cursive;
+            font-size: 25px;
+            text-align: center;
+            letter-spacing: 2px;
+}
+
+.pj-descrption{
+            display: block;
+            width: 95%;
+            height: 150px;
+            text-align: center;
+            margin: auto;
+}
+
+.link-page{
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            font-weight: 600;
+}
+.link-page:hover{
+            transition: .2s;
+            color:blue;
+            font-size: 20px;
+            border-bottom: 2px solid cornflowerblue;
+}
+
+/* Seccion de contacto*/
+
+#contact-me{
+            display: inline-block;
+            width: 100%;
+            height: 800px;
+            background-color: cornflowerblue;
+}
+
+#slogan{
+            font-family: 'Pacifico', cursive;
+            font-size: 70px;
+            margin: 0;
+            padding-top: 120px;
+            font-weight: 400;
+            text-align: center;
+            color: black; 
+}
+
+#contact-box{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            max-width: 900px;
+            width: 100%;
+            height: 150px;
+            margin: auto;
+            margin-top: 100px;
+
+            text-align: center;
+}
+
+.contact{
+            width: 120px;
+            border-radius: 100%;
+            height: 120px;
+            margin: auto;
+}
+
+.link-style{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            font-weight: 600;
+}
+.link-style img{
+            display: block;
+            width: 60px;
+            height: 60px;
+            margin: auto;
+            margin-top: 10px
+}
+
+#icon-facebook:hover{
+            transition: .2s;
+            background-color: darkblue;
+            border-radius: 8px;
+            width:70px;
+            height: 70px;
+}
+
+#icon-linkedln:hover{
+            transition: .2s;
+            background-color: blue;
+            border-radius: 8px;
+            width:70px;
+            height: 70px;
+}
+
+#icon-git:hover{
+            transition: .2s;
+            background-color: orangered;
+            border-radius: 8px;
+            width:70px;
+            height: 70px;
+}
+
+#icon-instagram:hover{
+            transition: .2s;
+            background-color: rgb(235, 16, 143);
+            border-radius: 19px;
+            width:70px;
+            height: 70px;
+}
+
+#last-block{
+            display: inline-block;
+            width: 100%;
+            background-color: lightslategrey;
+            text-align: center;
+            border-top: 2px solid darkslategray;
+}
+#firma{
+            font-size: 20px;
+            color: black;
+}
+
+@media (max-width: 1200px){
+           
+            #welcome-section{
+                        height: 700px;
+            }
+
+            #my-pharse{
+                        margin: auto;
+            }
+
+            #my-image{
+                        float: none;
+                        margin: auto;
+            }
+            
+            
+}
+
+@media (max-width: 470px){
+            body{
+                        font-size: 12px;
+            }
+            header{
+                        display: flex;
+                        flex-direction: column;
+                        height: 110px;
+                        text-align: center;
+            }
+
+            #title-box{
+                        display: flex;
+                        margin:auto;
+                        height: 60px;
+                        margin-top: 10px;
+            }
+
+            #nav-bar{
+                        margin: auto;
+                        margin-bottom: 10px;
+            }
+            #image-block{
+                        height: 180px;
+            }
+
+            #icon{
+                        margin: auto;
+                        margin-top: 120px;
+                        width: 20px;
+                        height: 20px;
+            }
+
+            #welcome-section{
+                        height: 650px;
+            }
+
+            #my-pharse{
+                        margin-top: 20px;
+                        font-size: 50px;
+                        padding-bottom: 20px;
+            }
+
+            #my-image{
+                        width: 200px;
+                        height: 200px;
+            }
+
+            #my-description{
+                        font-size: 16px;
+            }
+
+            #projects{
+                        height: 1250px;
+            }
+
+            #project-tittle{
+                        font-size: 50px;
+            }
+            #project-box{
+                        margin-top: 15px;
+            }
+
+            .project-tile{
+            width: 190px;
+            height: 210px;
+            }
+  
+            .project-tile:hover{
+                        width: 200px;
+                        height: 230px;
+            }
+
+            .pj-descrption{
+            height: 100px; 
+            }
+
+            .link-page{
+                        font-size: 14px;
+            }
+
+            #contact-me{
+                        height: 1000px;
+            }
+
+            #contact-me{
+                        height: 700px;
+            }
+
+            #slogan{
+                        font-size: 50px;
+                        padding-top: 80px;      
+            }
+
+            #firma{
+                        font-size: 12px;
+
+            }
+}

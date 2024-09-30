@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 15px 0;
+}
+
+.menu-superior ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-superior ul li {
+    margin: 0 20px;
+}
+
+.menu-superior ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu-superior ul li a:hover {
+    color: #f39c12;
+}
+
+#conteudo {
+    padding: 50px;
+}
+
+.pagina {
+    display: none;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.pagina h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+.imagem-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem-container img {
+    width: 400px;
+    height: 300px;
+    border: 5px solid #333;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.imagem-container img:hover {
+    transform: scale(1.05);
+}
+
+.imagem-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f39c12;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.imagem-container button:hover {
+    background-color: #e67e22;
+}
+
+/* Exibe a página ativa */
+#imagem1:target, #imagem2:target, #imagem3:target {
+    display: block;
+}
+
+#imagem1:target h2, #imagem2:target h2, #imagem3:target h2 {
+    color: #f39c12;
+}
