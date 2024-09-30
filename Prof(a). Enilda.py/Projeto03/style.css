@@ -1,0 +1,68 @@
+/* Importando a fonte Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Estilo do menu superior */
+.topnav {
+    display: flex;
+    background-color: #3498db;
+    justify-content: space-around;
+    padding-top: 15px;
+    width: 100%;
+    height: 100%;
+    align-items: flex-end;
+}
+
+.topnav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    align-items: end;
+    display: flex;
+}
+
+.topnav a:hover {
+    background-color: #2980b9;
+    border-radius: 5px 5px 0px 0px;
+    align-items: flex-end;
+}
+
+.topnav a.active {
+    background-color: #1abc9c;
+    border-radius: 5px 5px 0px 0px;
+}
+
+/* Estilo do conteúdo das páginas */
+.content {
+    padding: 50px;
+    text-align: center;
+}
+
+.content h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.content p {
+    font-size: 1.2rem;
+    color: #555;
+}
+/* Explicação:
+HTML:
+
+Cada página possui um menu superior com 4 botões que levam a diferentes páginas. O botão da página ativa usa a classe active para aplicar uma cor diferente.
+O conteúdo de cada página é diferente, conforme solicitado.
+CSS:
+
+O menu superior está estilizado com cores que mudam ao passar o mouse (hover), e a classe active define a cor da página ativa.
+A fonte Inter foi importada do Google Fonts e aplicada em toda a página.
+O conteúdo é centralizado, com um espaçamento confortável para uma boa experiência de leitura.
+Essa estrutura facilita a navegação entre as páginas e oferece um layout responsivo e moderno. */
